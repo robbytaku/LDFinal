@@ -1295,3 +1295,4 @@ Received Import Request.
 Start importing Assets/FPS/Prefabs/Enemies/Enemy_Turret.prefab using Guid(e29d43f43cc5d82499dd9926e01847d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8438b17f36ee4867421e4289a851503') in 0.099881 seconds
   Import took 0.108323 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
