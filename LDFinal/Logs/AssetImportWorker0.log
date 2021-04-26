@@ -1,6 +1,10 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+<<<<<<< HEAD
 OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16228 MB
+=======
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16262 MB
+>>>>>>> 0a4412da281bd51ba7fbb620f443c44821fb819c
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,6 +15,7 @@ C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 C:/Users/Novalon/Documents/GitHub/LDFinal/LDFinal
 -logFile
 Logs/AssetImportWorker0.log
@@ -30,15 +35,41 @@ Direct3D:
     Renderer: NVIDIA GeForce MX150 (ID=0x1d10)
     Vendor:   
     VRAM:     1983 MB
+=======
+C:/Users/Ant/Desktop/Other Things/LDFinal/LDFinal
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52221
+Successfully changed project path to: C:/Users/Ant/Desktop/Other Things/LDFinal/LDFinal
+C:/Users/Ant/Desktop/Other Things/LDFinal/LDFinal
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ant/Desktop/Other Things/LDFinal/LDFinal/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+>>>>>>> 0a4412da281bd51ba7fbb620f443c44821fb819c
     Driver:   27.21.14.5763
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+>>>>>>> 0a4412da281bd51ba7fbb620f443c44821fb819c
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.003891 seconds.
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 62.46 ms, found 0 plugins.
@@ -2633,5 +2664,99 @@ Received Import Request.
   artifactKey: Guid(df19e001bcac16546bf83c5048228057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/PolygonSciFiSpace/Prefabs/Props/SM_Prop_Turret_Base_Double_02.prefab using Guid(df19e001bcac16546bf83c5048228057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa576f82137898811dc54df380b59a45') in 0.030479 seconds
   Import took 0.035420 seconds .
+=======
+Registered in 0.003538 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 51.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.379 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002314 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1795 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.2 MB.
+System memory in use after: 167.3 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2250.
+Total: 4.039000 ms (FindLiveObjects: 0.333700 ms CreateObjectMapping: 0.156400 ms MarkObjects: 3.163800 ms  DeleteObjects: 0.383700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Level 3/Level 1.unity
+  artifactKey: Guid(0c2358ff0dbb89d43993f4c9fb60b1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 3/Level 1.unity using Guid(0c2358ff0dbb89d43993f4c9fb60b1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1950bb117a05bb0153bd669974661baf') in 0.008349 seconds
+  Import took 0.012296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.504358 seconds.
+  path: Assets/Level 3/Level 3.unity
+  artifactKey: Guid(0c2358ff0dbb89d43993f4c9fb60b1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 3/Level 3.unity using Guid(0c2358ff0dbb89d43993f4c9fb60b1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc917c1932527780d4cc58d183240953') in 0.003508 seconds
+  Import took 0.009206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001632 seconds.
+  path: Assets/Level 3/Level 3.unity
+  artifactKey: Guid(0c2358ff0dbb89d43993f4c9fb60b1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 3/Level 3.unity using Guid(0c2358ff0dbb89d43993f4c9fb60b1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc917c1932527780d4cc58d183240953') in 0.002631 seconds
+  Import took 0.005910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.046763 seconds.
+  path: Assets/Level1/MotherShipTutorial.png
+  artifactKey: Guid(5ad450a1019e86247beb1d1a6198d262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1/MotherShipTutorial.png using Guid(5ad450a1019e86247beb1d1a6198d262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195040a193c75b6da9974eb366600bcd') in 0.121167 seconds
+  Import took 0.124067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.560647 seconds.
+  path: Assets/Level1/Level 1.unity
+  artifactKey: Guid(3dd583bee9aeb7b4abdc9cba19760100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1/Level 1.unity using Guid(3dd583bee9aeb7b4abdc9cba19760100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c528c8b944e869bf9f97c17b88b014c') in 0.002824 seconds
+  Import took 0.006405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 565.677478 seconds.
+  path: Assets/FPS/Art/Materials/VFX/JetPackTrail.mat
+  artifactKey: Guid(b06de00127b56814e9454c2d7d9f139a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/Art/Materials/VFX/JetPackTrail.mat using Guid(b06de00127b56814e9454c2d7d9f139a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32de99c6d27f0f608736df0809af106c') in 0.079059 seconds
+  Import took 0.082679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6258.035789 seconds.
+  path: Assets/FPS/Art/Materials/VFX/SmokeAngry.mat
+  artifactKey: Guid(c652749532525cf40a10b2c90cd662c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/Art/Materials/VFX/SmokeAngry.mat using Guid(c652749532525cf40a10b2c90cd662c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaaffc60c2f5aead290fde685df14a55') in 0.029964 seconds
+  Import took 0.038041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019218 seconds.
+  path: Assets/FPS/Art/Materials/VFX/SmokeAngry.mat
+  artifactKey: Guid(c652749532525cf40a10b2c90cd662c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/Art/Materials/VFX/SmokeAngry.mat using Guid(c652749532525cf40a10b2c90cd662c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaaffc60c2f5aead290fde685df14a55') in 0.011448 seconds
+  Import took 0.014883 seconds .
+>>>>>>> 0a4412da281bd51ba7fbb620f443c44821fb819c
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
