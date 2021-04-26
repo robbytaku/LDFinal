@@ -1480,3 +1480,66 @@ Received Import Request.
 Start importing Assets/Level1/Level 1.unity using Guid(3dd583bee9aeb7b4abdc9cba19760100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdf4dd97b89b8cd86ed8fc0ae6263a9') in 0.004657 seconds
   Import took 0.008787 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 233.492368 seconds.
+  path: Assets/Level 2.unity
+  artifactKey: Guid(cfa7bfb5036a2684886eb5117bd526f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 2.unity using Guid(cfa7bfb5036a2684886eb5117bd526f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85765c9997082cb7e65f1921bab2b1e') in 0.002818 seconds
+  Import took 0.006750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.936975 seconds.
+  path: Assets/FPS/Scripts/AI/fps.AI.asmdef
+  artifactKey: Guid(e9dc24b3d0971d64a9e95b6986d97af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/Scripts/AI/fps.AI.asmdef using Guid(e9dc24b3d0971d64a9e95b6986d97af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37df9a957704fc4e639b342d7cfc4d8a') in 0.007321 seconds
+  Import took 0.010210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.347516 seconds.
+  path: Assets/SceneCollider.cs
+  artifactKey: Guid(60f3bb9543fdb2e4d91dd87f521529a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneCollider.cs using Guid(60f3bb9543fdb2e4d91dd87f521529a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cbd78e9af6f9451757b9492d0cbc76') in 0.009331 seconds
+  Import took 0.013362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.097265 seconds.
+  path: Assets/SceneCollider.cs
+  artifactKey: Guid(60f3bb9543fdb2e4d91dd87f521529a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneCollider.cs using Guid(60f3bb9543fdb2e4d91dd87f521529a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5830e3dfa2df49df9f89c3e3d2b5f2') in 0.003256 seconds
+  Import took 0.006607 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001463 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.082 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.2 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 2.713000 ms (FindLiveObjects: 0.220800 ms CreateObjectMapping: 0.095200 ms MarkObjects: 2.289800 ms  DeleteObjects: 0.105900 ms)
+
