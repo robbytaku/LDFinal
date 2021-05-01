@@ -4338,3 +4338,4 @@ Received Import Request.
 Start importing Assets/PolygonSciFiSpace/Prefabs/Buildings/SM_Bld_Wall_Pillar_07.prefab using Guid(cddbb4df8d24f09499b8c3e79059abbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd2d1f4b19f0c7af2300db1467394be') in 0.024249 seconds
   Import took 0.030098 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
