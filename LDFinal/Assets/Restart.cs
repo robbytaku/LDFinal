@@ -10,6 +10,8 @@ public class Restart : MonoBehaviour
         if (Input.GetKey("escape"))
         {
             SceneManager.LoadScene(0);
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }
